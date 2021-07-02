@@ -1,0 +1,22 @@
+Reference, Value, Footprint, Datasheet
+C3,100n,Capacitor_SMD:C_0603_1608Metric,~
+C1,100n,Capacitor_SMD:C_0603_1608Metric,~
+C2,100n,Capacitor_SMD:C_0603_1608Metric,~
+C5,100n,Capacitor_SMD:C_0603_1608Metric,~
+D1,1N4148,Diode_SMD:D_0603_1608Metric,https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
+D2,1N4148,Diode_SMD:D_0603_1608Metric,https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
+D3,1N4004,Diode_SMD:D_0603_1608Metric,http://www.vishay.com/docs/88503/1n4001.pdf
+IC1,LM555N,Package_DIP:DIP-8_W8.89mm_SMDSocket_LongPads,http://www.ti.com/lit/ds/symlink/lm555.pdf
+Q1,2N3904,Package_TO_SOT_SMD:SOT-23W,https://www.onsemi.com/pub/Collateral/2N3903-D.PDF
+Q3,IRLZ44N,Package_TO_SOT_SMD:ATPAK-2,http://www.irf.com/product-info/datasheets/data/irlz44n.pdf
+R4,22,Resistor_SMD:R_0603_1608Metric,~
+R3,2.2k,Resistor_SMD:R_0603_1608Metric,~
+R2,10k,Resistor_SMD:R_0603_1608Metric,~
+R5,10k,Resistor_SMD:R_0603_1608Metric,~
+Q2,2N3906,Package_TO_SOT_SMD:SOT-23W,https://www.onsemi.com/pub/Collateral/2N3906-D.PDF
+IC2,L7809,Package_TO_SOT_SMD:ATPAK-2,http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+C4,10uf / 35V,Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I,~
+R1,100k,Potentiometer_SMD:Potentiometer_Bourns_3314J_Vertical,~
+Battery1,Battery,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",~
+Motor1,Motor,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",~
+External_POT1,External_POT,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal",~

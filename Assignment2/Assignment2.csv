@@ -1,0 +1,22 @@
+Reference, Value, Footprint, Datasheet
+C3,100n,Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal,~
+C1,100n,Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal,~
+C2,100n,Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal,~
+C5,100n,Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal,~
+D1,1N4148,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
+D2,1N4148,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
+D3,1N4004,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,http://www.vishay.com/docs/88503/1n4001.pdf
+IC1,LM555N,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/lm555.pdf
+Q1,2N3904,Package_TO_SOT_THT:TO-92_Inline,https://www.onsemi.com/pub/Collateral/2N3903-D.PDF
+Q3,IRLZ44N,Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown,http://www.irf.com/product-info/datasheets/data/irlz44n.pdf
+R4,22,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+R3,2.2k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+R2,10k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+R5,10k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+Q2,2N3906,Package_TO_SOT_THT:TO-92_Inline,https://www.onsemi.com/pub/Collateral/2N3906-D.PDF
+IC2,L7809,Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown,http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+C4,10uf / 35V,Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm,~
+R1,100k,Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical,~
+Battery1,Battery,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",~
+Motor1,Motor,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",~
+External_POT1,External_POT,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal",~
