@@ -1,0 +1,227 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 60F4C294
+P 4650 3250
+F 0 "Q1" H 4841 3296 50  0000 L CNN
+F 1 "2N3904" H 4841 3205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4850 3175 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 4650 3250 50  0001 L CNN
+	1    4650 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q2
+U 1 1 60F4C3D1
+P 6150 3250
+F 0 "Q2" H 6340 3296 50  0000 L CNN
+F 1 "2N3904" H 6340 3205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6350 3175 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 6150 3250 50  0001 L CNN
+	1    6150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60F524EB
+P 4550 2450
+F 0 "R1" H 4620 2496 50  0000 L CNN
+F 1 "1k" H 4620 2405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4480 2450 50  0001 C CNN
+F 3 "~" H 4550 2450 50  0001 C CNN
+	1    4550 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 60F542B4
+P 5100 2200
+F 0 "R2" H 5170 2246 50  0000 L CNN
+F 1 "10k" H 5170 2155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5030 2200 50  0001 C CNN
+F 3 "~" H 5100 2200 50  0001 C CNN
+	1    5100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 60F545AF
+P 5750 2200
+F 0 "R3" H 5820 2246 50  0000 L CNN
+F 1 "10k" H 5820 2155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5680 2200 50  0001 C CNN
+F 3 "~" H 5750 2200 50  0001 C CNN
+	1    5750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 60F54BFC
+P 6250 2500
+F 0 "R4" H 6320 2546 50  0000 L CNN
+F 1 "1k" H 6320 2455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6180 2500 50  0001 C CNN
+F 3 "~" H 6250 2500 50  0001 C CNN
+	1    6250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 60F54F7B
+P 4800 2700
+F 0 "C1" V 4548 2700 50  0000 C CNN
+F 1 "470u" V 4639 2700 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4838 2550 50  0001 C CNN
+F 3 "~" H 4800 2700 50  0001 C CNN
+	1    4800 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 60F55608
+P 6050 2700
+F 0 "C2" V 5798 2700 50  0000 C CNN
+F 1 "470u" V 5889 2700 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 6088 2550 50  0001 C CNN
+F 3 "~" H 6050 2700 50  0001 C CNN
+	1    6050 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 60F55D5D
+P 5350 3850
+F 0 "#PWR0101" H 5350 3600 50  0001 C CNN
+F 1 "GND" H 5355 3677 50  0000 C CNN
+F 2 "" H 5350 3850 50  0001 C CNN
+F 3 "" H 5350 3850 50  0001 C CNN
+	1    5350 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2700 6250 2700
+Wire Wire Line
+	6250 2700 6250 3050
+Wire Wire Line
+	5900 2700 5750 2700
+Wire Wire Line
+	5350 2700 5350 3250
+Wire Wire Line
+	5350 3250 4850 3250
+Wire Wire Line
+	4650 2700 4550 2700
+Wire Wire Line
+	4550 2700 4550 3050
+Wire Wire Line
+	5650 2950 5650 3250
+Wire Wire Line
+	5650 3250 5950 3250
+Wire Wire Line
+	5750 2350 5750 2700
+Connection ~ 5750 2700
+Wire Wire Line
+	5750 2700 5350 2700
+Wire Wire Line
+	5100 2350 5100 2700
+Wire Wire Line
+	5100 2700 4950 2700
+Wire Wire Line
+	5650 2950 5100 2950
+Wire Wire Line
+	5100 2950 5100 2700
+Connection ~ 5100 2700
+Wire Wire Line
+	6250 1850 5750 1850
+Wire Wire Line
+	5100 2050 5100 1850
+Connection ~ 5100 1850
+Wire Wire Line
+	5750 2050 5750 1850
+Connection ~ 5750 1850
+Wire Wire Line
+	5750 1850 5100 1850
+Wire Wire Line
+	4550 3450 4550 3750
+Wire Wire Line
+	4550 3750 5350 3750
+Wire Wire Line
+	6250 3750 6250 3450
+Wire Wire Line
+	5350 3850 5350 3750
+Connection ~ 5350 3750
+Wire Wire Line
+	5350 3750 6250 3750
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 60F5A41A
+P 3950 2800
+F 0 "J1" H 3868 2475 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 3868 2566 50  0000 C CNN
+F 2 "TerminalBlock_Altech:Altech_AK300_1x02_P5.00mm_45-Degree" H 3950 2800 50  0001 C CNN
+F 3 "~" H 3950 2800 50  0001 C CNN
+	1    3950 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 2700 4150 1850
+Wire Wire Line
+	4150 2800 4150 3750
+Wire Wire Line
+	4150 3750 4550 3750
+Connection ~ 4550 3750
+Wire Wire Line
+	4150 1850 4550 1850
+$Comp
+L Device:LED D1
+U 1 1 60F64137
+P 4550 2050
+F 0 "D1" V 4589 1932 50  0000 R CNN
+F 1 "LED" V 4498 1932 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 4550 2050 50  0001 C CNN
+F 3 "~" H 4550 2050 50  0001 C CNN
+	1    4550 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 60F645BB
+P 6250 2100
+F 0 "D2" V 6289 1982 50  0000 R CNN
+F 1 "LED" V 6198 1982 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 6250 2100 50  0001 C CNN
+F 3 "~" H 6250 2100 50  0001 C CNN
+	1    6250 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 2200 4550 2300
+Wire Wire Line
+	4550 2600 4550 2700
+Connection ~ 4550 2700
+Wire Wire Line
+	4550 1900 4550 1850
+Connection ~ 4550 1850
+Wire Wire Line
+	4550 1850 5100 1850
+Wire Wire Line
+	6250 1950 6250 1850
+Wire Wire Line
+	6250 2250 6250 2350
+Wire Wire Line
+	6250 2650 6250 2700
+Connection ~ 6250 2700
+$EndSCHEMATC
