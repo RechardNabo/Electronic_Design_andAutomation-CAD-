@@ -1,0 +1,28 @@
+Reference, Quantity, Value, Footprint, Datasheet
+C1 ,1,100u/100v,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,~
+C2 ,1,220u/63v,Capacitor_THT:CP_Radial_D10.0mm_P7.50mm,~
+C4 C10 ,2,10n,Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm,~
+C3 C5 C6 C7 C9 C11 C12 C13 ,8,100n,Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm,~
+C8 ,1,10u/63v,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,~
+D2 D5 D11 D13 D14 D15 ,6,LED,LED_THT:LED_D3.0mm_Clear,~
+Diode1 Diode3 Diode4 Diode6 Diode8 ,5,5V1/1W,Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal,~
+J1 ,1,PICKIT-3 Programming,Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical,~
+J2 ,1,Adapter,Connector_Hirose:Hirose_DF13-06P-1.25DSA_1x06_P1.25mm_Vertical,~
+J3 ,1,Screw_Terminal_01x05,Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical,~
+JP1 JP3 ,2,0,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+JP2 JP4 JP5 JP6 ,4, ,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
+LED1 ,1,FWD,LED_THT:LED_D3.0mm_Clear,~
+LED2 ,1,REV,LED_THT:LED_D3.0mm_Clear,~
+LED3 ,1,LEFT,LED_THT:LED_D3.0mm_Clear,~
+LED4 ,1,RIGHT,LED_THT:LED_D3.0mm_Clear,~
+Q1 Q2 Q3 Q4 Q5 Q6 ,6,BS170,Package_TO_SOT_THT:TO-92_Inline,https://www.onsemi.com/pub/Collateral/BS170-D.PDF
+R1 R2 R3 R4 R7 R10 R11 R14 R15 R16 R17 R20 R23 R26 ,14,560,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+R5 R8 R12 R18 R21 R24 ,6,0R,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+R6 R9 R13 R19 R22 R25 ,6,100,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+U1 ,1,L7805,Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown,http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+U2 ,1,URB4812LD-20W,Converter_DCDC:Converter_DCDC_XP_POWER_JTDxxxxxxx_THT,
+U3 ,1,PIC16F1787-I_PT,F_p1:PIC16F1787-I&slash_PT,
+X1-1 ,1,X1-2,TerminalBlock_Altech:Altech_AK300_1x02_P5.00mm_45-Degree,~
+X1-3 ,1,X6-3,TerminalBlock_Altech:Altech_AK300_1x02_P5.00mm_45-Degree,~
+X5-1 ,1,X5-2,TerminalBlock_Altech:Altech_AK300_1x02_P5.00mm_45-Degree,~
+X2-1 X2-2 X2-3 x3-1 X3-2 X3-3 ,6, ,Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical,~
